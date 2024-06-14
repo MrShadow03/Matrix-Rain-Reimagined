@@ -1,0 +1,88 @@
+{
+    "textSize": {
+      "max": 64,
+      "min": 14,
+      "text": "Text Size",
+      "type": "slider",
+      "help": "Change the text size",
+      "value": 14 
+    },
+    "fallingDelay": {
+      "max": 150,
+      "min": 1,
+      "text": "Falling Delay (ms)",
+      "type": "slider",
+      "help": "Change the speed of the rain",
+      "value": 75 
+    },
+    "rainingCharacters": {
+      "text" : "Raining Characters",
+      "type" : "textbox",
+      "help" : "Enter the characters you want to rain down",
+      "value" : "অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়০১২৩৪৫৬৭৮৯"
+    },
+    "rainingCharactersColor": {
+      "text": "Primary Color",
+      "type": "color",
+      "value": "#00ff00"
+    },
+    "specialCharacters": {
+      "text" : "Special Characters",
+      "type" : "textbox",
+      "help" : "These characters must be in the raining characters list",
+      "value" : "ইমনরচফহর"
+    },
+    "specialCharactersColor": {
+      "text": "Special Character Color",
+      "type": "color",
+      "help": "Color of the special characters",
+      "value": "#ff0000"
+    },
+    "fontFamily": {
+      "text": "Font Family",
+      "type": "textbox",
+      "help": "Change the font family",
+      "value": "Hind Siliguri"
+    },
+    "isRainbowEnabled": {
+      "text": "Enable Rainbow",
+      "type": "checkbox",
+      "help": "Enable rainbow effect",
+      "value": false
+    },
+    "color1": {
+      "text": "Color 1",
+      "type": "color",
+      "value": "#ff0000"
+    },
+    "color2": {
+      "text": "Color 2",
+      "type": "color",
+      "value": "#ff7f00"
+    },
+    "color3": {
+      "text": "Color 3",
+      "type": "color",
+      "value": "#ffff00"
+    },
+    "color4": {
+      "text": "Color 4",
+      "type": "color",
+      "value": "#00ff00"
+    },
+    "color5": {
+      "text": "Color 5",
+      "type": "color",
+      "value": "#0000ff"
+    },
+    "color6": {
+      "text": "Color 6",
+      "type": "color",
+      "value": "#4b0082"
+    },
+    "color7": {
+      "text": "Color 7",
+      "type": "color",
+      "value": "#9400d3"
+    }
+  }
