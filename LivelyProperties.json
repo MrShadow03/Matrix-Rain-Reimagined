@@ -19,7 +19,7 @@
       "text" : "Raining Characters",
       "type" : "textbox",
       "help" : "Enter the characters you want to rain down",
-      "value" : "অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়০১২৩৪৫৬৭৮৯"
+      "value" : "あなたを決してあきらめない Never gonna give you up!"
     },
     "rainingCharactersColor": {
       "text": "Primary Color",
@@ -30,7 +30,7 @@
       "text" : "Special Characters",
       "type" : "textbox",
       "help" : "These characters must be in the raining characters list",
-      "value" : "ইমনরচফহর"
+      "value" : "決して"
     },
     "specialCharactersColor": {
       "text": "Special Character Color",
@@ -42,7 +42,7 @@
       "text": "Font Family",
       "type": "textbox",
       "help": "Change the font family",
-      "value": "Hind Siliguri"
+      "value": "Arial"
     },
     "isRainbowEnabled": {
       "text": "Enable Rainbow",

@@ -7,11 +7,11 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // Setting up the letters
-var letters = 'অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎড়ঢ়য়০১২৩৪৫৬৭৮৯';
+var letters = 'あなたを決してあきらめない Never gonna give you up!';
 letters = letters.replace(' ', '');
 letters = letters.split('');
 
-var specialLetters = 'ইমনরচফহর';
+var specialLetters = '決して';
 specialLetters = specialLetters.replace(' ', '');
 specialLetters = specialLetters.split('');
 
@@ -27,10 +27,10 @@ drops[i] = 1;
 
 var primaryColor = '#00ff00';
 var secondaryColor = '#ff0000';
+var backgroundColor = '#0fff00';
 var delay = 75;
-var font = 'Hind Siliguri';
+var font = 'Arial';
 var timeoutId;
-
 // rainbow colors
 var isRainbowEnabled = false;
 var rainbowColors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#0000ff', '#4b0082', '#9400d3'];
@@ -92,10 +92,11 @@ function livelyPropertyListener(name, val) {
 rainbowIndex = 0;
 // Setting up the draw function
 function draw() {
-    ctx.fillStyle = 'rgba(0, 0, 0, .1)';
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     for (var i = 0; i < drops.length; i++) {
         var text = letters[Math.floor(Math.random() * letters.length)];
+        text = text ? text : 'v';
         ctx.fillStyle = primaryColor;
         // if the the text is a special letter, change the color
         if (specialLetters.includes(text)) {
