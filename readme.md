@@ -1,5 +1,7 @@
 # Matrix Rain Wallpaper with Customization
 
+![Matrix Rain Reimagined Demo](./preview.gif)
+
 Matrix Rain Reimagined is a webpage that you can use as a wallpaper with [Lively Wallpaper](https://rocksdanister.github.io/lively/), an open source software that allows you to use webpages as wallpapers. This project is a reimagined version of the classic Matrix Rain wallpaper with added customization options. You can customize the text characters, text size, font family, falling speed, and more. You can also enable rainbow colors for the falling characters and customize each of the 7 rainbow colors. This project is built with HTML, CSS, and JavaScript. 
 
 ## Features
