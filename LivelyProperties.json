@@ -13,13 +13,13 @@
       "text": "Falling Delay (ms)",
       "type": "slider",
       "help": "Change the speed of the rain",
-      "value": 75 
+      "value": 40 
     },
     "rainingCharacters": {
       "text" : "Raining Characters",
       "type" : "textbox",
       "help" : "Enter the characters you want to rain down",
-      "value" : "あなたを決してあきらめない Never gonna give you up!"
+      "value" : "ネバーゴナーギブユーアップ1234"
     },
     "rainingCharactersColor": {
       "text": "Primary Color",
@@ -30,7 +30,7 @@
       "text" : "Special Characters",
       "type" : "textbox",
       "help" : "These characters must be in the raining characters list",
-      "value" : "決して"
+      "value" : "ッ12"
     },
     "specialCharactersColor": {
       "text": "Special Character Color",
