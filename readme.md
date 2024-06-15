@@ -1,4 +1,4 @@
-# Matrix Rain Wallpaper with Customization
+# Matrix Rain Reimagined
 
 ![Matrix Rain Reimagined Demo](./preview.gif)
 
